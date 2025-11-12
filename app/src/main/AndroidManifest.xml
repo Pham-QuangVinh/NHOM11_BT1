@@ -15,9 +15,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BT1_Nhom_ForgotPass">
 
-        <!-- Màn hình khởi động -->
         <activity
-            android:name=".EmailRequestActivity"
+            android:name=".SignInActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,12 +25,27 @@
         </activity>
 
         <activity
+            android:name=".SignUpActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+
+        <activity
+            android:name=".EmailRequestActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+
+        <activity
             android:name=".OtpVerifyActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
 
         <activity
             android:name=".ResetPasswordActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+
+        <activity
+            android:name=".RegisterSuccessActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
 

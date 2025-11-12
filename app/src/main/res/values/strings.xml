@@ -1,3 +1,30 @@
 <resources>
-    <string name="app_name">BT1_Nhom_ForgotPass</string>
+    <string name="app_name">Sign In</string> <!-- hoặc Sign Up, tên bạn muốn hiển thị -->
+    <string name="app_name1">sign_in</string>
+    <string name="app_name2">Sign Up</string>
+    <string name="back">Back</string>
+    <string name="sign_up">Sign up</string>
+    <string name="subtitle">Create an account to continue and enter your information correctly.</string>
+    <string name="full_name">Full name</string>
+    <string name="enter_full_name">Enter your first name and surname.</string>
+    <string name="date_of_birth">Date of birth</string>
+    <string name="choose_date_of_birth">Enter your date of birth.</string>
+    <string name="gender">Gender</string>
+    <string name="choose_gender">Choose your gender.</string>
+    <string-array name="genders">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string name="email_optional">Email (optional)</string>
+    <string name="enter_email">Enter your email.</string>
+    <string name="address">Address</string>
+    <string name="enter_address">Enter your address.</string>
+    <string name="phone_number">Phone number</string>
+    <string name="enter_phone_number">Enter your phone number.</string>
+    <string name="password">Password</string>
+    <string name="enter_password">Enter your password.</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="enter_password_again">Enter your password again.</string>
+    <string name="terms_and_conditions">By creating an account, I confirm Privacy Policy and Terms of Use.</string>
+    <string name="sign_up_button">SIGN UP</string>
 </resources>
