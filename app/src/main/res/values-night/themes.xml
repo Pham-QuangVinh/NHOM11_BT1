@@ -1,5 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
+<<<<<<< HEAD
     <style name="Base.Theme.Sign_in" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your dark theme here. -->
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
@@ -10,4 +11,10 @@
     </style>
 
     <style name="Theme.SignUp" parent="Base.Theme.SignUp" />
+=======
+    <style name="Base.Theme.BT1_Nhom_ForgotPass" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    </style>
+>>>>>>> forgot_password
 </resources>

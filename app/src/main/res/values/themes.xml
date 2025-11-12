@@ -1,9 +1,17 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
+<<<<<<< HEAD
     <style name="Base.Theme.Sign_in" parent="Theme.Material3.DayNight.NoActionBar">
+=======
+    <style name="Base.Theme.BT1_Nhom_ForgotPass" parent="Theme.Material3.DayNight.NoActionBar">
+>>>>>>> forgot_password
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
+<<<<<<< HEAD
     <style name="Theme.Sign_in" parent="Base.Theme.Sign_in" />
+=======
+    <style name="Theme.BT1_Nhom_ForgotPass" parent="Base.Theme.BT1_Nhom_ForgotPass" />
+>>>>>>> forgot_password
 </resources>

@@ -19,7 +19,11 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logo" />
+<<<<<<< HEAD
     //Avatar
+=======
+
+>>>>>>> forgot_password
     <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/imgAvatar"
         android:layout_width="288dp"
@@ -31,7 +35,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+<<<<<<< HEAD
     //Email
+=======
+>>>>>>> forgot_password
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/tilEmail"
         style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
@@ -57,7 +64,10 @@
             android:paddingStart="40dp"/>
     </com.google.android.material.textfield.TextInputLayout>
 
+<<<<<<< HEAD
     //Password
+=======
+>>>>>>> forgot_password
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/tilPassword"
         style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
@@ -85,7 +95,10 @@
             android:paddingStart="40dp"/>
     </com.google.android.material.textfield.TextInputLayout>
 
+<<<<<<< HEAD
     //Remember Password
+=======
+>>>>>>> forgot_password
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/rowRememberForgot"
         android:layout_width="0dp"
@@ -97,6 +110,10 @@
         android:layout_marginStart="24dp"
         android:layout_marginEnd="24dp">
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> forgot_password
         <CheckBox
             android:id="@+id/chkRemember"
             android:layout_width="wrap_content"
@@ -114,10 +131,18 @@
             android:textColor="#3E8BFF"
             android:textStyle="bold"
             app:layout_constraintBaseline_toBaselineOf="@id/chkRemember"
+<<<<<<< HEAD
             app:layout_constraintEnd_toEndOf="parent"/>
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     //Login
+=======
+            app:layout_constraintEnd_toEndOf="parent"
+            android:clickable="true"
+            android:focusable="true"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+>>>>>>> forgot_password
     <Button
         android:id="@+id/btnLogin"
         android:layout_width="0dp"
@@ -134,7 +159,10 @@
         android:layout_marginStart="24dp"
         android:layout_marginEnd="24dp"/>
 
+<<<<<<< HEAD
     //Sign up
+=======
+>>>>>>> forgot_password
     <LinearLayout
         android:id="@+id/llSignUp"
         android:layout_width="wrap_content"

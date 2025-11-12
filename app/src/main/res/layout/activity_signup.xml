@@ -17,6 +17,7 @@
             android:layout_height="wrap_content"
             android:padding="24dp">
 
+<<<<<<< HEAD
             <!-- Back Button -->
             <ImageButton
                 android:id="@+id/btnBack"
@@ -29,6 +30,18 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:tint="@color/black" />
 
+=======
+            <ImageButton
+                android:id="@+id/btnBack"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:src="@drawable/baseline_arrow_back_24"
+                android:contentDescription="Back"
+                app:tint="@color/black"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+>>>>>>> forgot_password
             <!-- Title -->
             <TextView
                 android:id="@+id/tvTitle"
@@ -395,7 +408,12 @@
                 android:textSize="16sp"
                 android:textStyle="bold"
                 android:textColor="@color/white"
+<<<<<<< HEAD
                 android:backgroundTint="#9E9E9E"
+=======
+                android:enabled="false"
+                android:backgroundTint="@color/signup_disabled"
+>>>>>>> forgot_password
                 app:cornerRadius="12dp"
                 android:layout_marginTop="24dp"
                 android:layout_marginBottom="24dp"
@@ -404,6 +422,10 @@
                 app:layout_constraintTop_toBottomOf="@id/cbTerms"
                 app:layout_constraintBottom_toBottomOf="parent" />
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> forgot_password
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
 

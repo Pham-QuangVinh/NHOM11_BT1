@@ -19,6 +19,10 @@ dependencyResolutionManagement {
     }
 }
 
+<<<<<<< HEAD
 rootProject.name = "sign_in"
+=======
+rootProject.name = "BT1_Nhom_ForgotPass"
+>>>>>>> forgot_password
 include(":app")
  

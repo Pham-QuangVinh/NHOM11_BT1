@@ -1,4 +1,8 @@
 <resources>
+<<<<<<< HEAD
+=======
+    <string name="app_name">Sign In</string> <!-- hoặc Sign Up, tên bạn muốn hiển thị -->
+>>>>>>> forgot_password
     <string name="app_name1">sign_in</string>
     <string name="app_name2">Sign Up</string>
     <string name="back">Back</string>
@@ -24,6 +28,12 @@
     <string name="enter_password">Enter your password.</string>
     <string name="confirm_password">Confirm password</string>
     <string name="enter_password_again">Enter your password again.</string>
+<<<<<<< HEAD
     <string name="terms_and_conditions">By creating an account, I confirm Privacy Policy and Term of Use.</string>
     <string name="sign_up_button">SIGN UP</string>
 </resources>
+=======
+    <string name="terms_and_conditions">By creating an account, I confirm Privacy Policy and Terms of Use.</string>
+    <string name="sign_up_button">SIGN UP</string>
+</resources>
+>>>>>>> forgot_password
